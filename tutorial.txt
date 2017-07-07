@@ -1,0 +1,21 @@
+** A basic website with Mithril.js  **
+
+This tutorial will get us up and running with an SPA (single page application) that uses Mithril.js to render HTML in the browser. I am using Mithril.js because it is very fast (currently do not know of anything faster), light-weight, quick and easy to get started with, well documented and very well thought out.
+
+This tutorial is a starting point. In upcoming installments I will show how to make the website absolutely SEO friendly (by utilizing SSR (server side rendering)) and even faster (using pre-rendered files). It will score 100% in Google PageSpeed, a pass in the Mobile-Friendly test and Excellent in Mobile Speed test. Such scores are not difficult to achive but most sites still fail to achieve them (at least what google PageSpeed is concerned). Mostly, I think, this is because of the currently prevailing CMS systems. If I continue long enough with my tutorials I will be adding CMS functionality to the website - without affecting the scores (that is the aim at least).
+
+Besides the website itself I will go through the entire "stack" of tools and technologies involved. So, if you are a relatively new developer or just new to the things I work I hope this will all be of interest.
+
+Let's get started.
+
+I am using Visual Studio Code as my code editor of choice. I have been using Sublime Text for the last couple of years. I am happy with it but have not failed to notice all the good things being said about Visual Studio Code. So, for now I taking it for a spin.
+
+First things first. Let's set up GIT so that we can benefit from having an external back up of our code as well as version history. As this will be an Open Source project I will create a repository for it on Github.
+
+(I am assuming you already have GIT installed on your system. If not here is a tutorial to follow: )
+
+To allow Visual Studio Code to work easily with Github, I am installing the GitHub extension:
+
+- Press the "Extensions" icon in Github, and write "github" in the input field. Then press the Install button belonging to the GitHub entry in the list. After a few seconds, press the appearing "Reload" button.
+
+
