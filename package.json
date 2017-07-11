@@ -1,0 +1,43 @@
+{
+  "name": "mithril-website",
+  "version": "1.0.0",
+  "description": "Basic website using the Mithril JavaScript framework",
+  "main": "index.js",
+  "dependencies": {},
+  "engines": {
+    "node": "4.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "0.28.4",
+    "extract-text-webpack-plugin": "2.1.2",
+    "file-loader": "0.11.2",
+    "lodash": "4.17.4",
+    "mini.css": "2.3.2",
+    "mithril": "1.1.1",
+    "style-loader": "0.18.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prebuild:dev": "rimraf dist",
+    "build:dev": "webpack --env.dev",
+    "dev": "webpack-dev-server --env.dev --port 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersSchultz/mithril-website.git"
+  },
+  "keywords": [
+    "mithril",
+    "webpack",
+    "website"
+  ],
+  "author": "Anders N. Schultz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersSchultz/mithril-website/issues"
+  },
+  "homepage": "https://github.com/AndersSchultz/mithril-website#readme"
+}
