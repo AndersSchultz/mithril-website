@@ -9,25 +9,28 @@ By utilizing a horde of clever minds and putting their work together, I am in th
 - No dependency on a big, monolithic framework in which to place your destiny
 
 Focus points / features:
-- Optimized for speed
 - Single page JavaScript web application
 - Fully SEO "compatible" by utilizing server side rendered content
 - Optimized for speed by utilizing static pages (though website in general )
 - Hot reloading during development
-- Immutability () 
+- Immutability
+- Still adding to the list ...
 
 Technologies in the stack:
 
 - JavaScript / HTML / CSS
+- Mithril.js - (incredibly fast) rendering engine
 - Node.js
 - Webpack
-- Mithril.js - (incredibly fast) rendering engine
+- GIT
 Still to come:
 - Redux - (clear and plain) state management
 - RethinkDB - (awesome, no-schema database with) 
 
-The tutorials are published here on Github. First one is available now (still being polished)
+The tutorials are published here on Github. First one is available (still being polished)
 
 1) [Getting our basic mithril.js app up and running](http://tutorials.visionaryprogrammer.com/mithril-js-basic-application/)
+
+The branch that goes with furst tutorial is: tutorial01
 
 Please, contact me if something is not understandable or if you have ideas to improve the project. I will gladly help you out and listen to your feedback to improve my work here.
